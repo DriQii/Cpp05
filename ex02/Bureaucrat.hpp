@@ -4,6 +4,9 @@
 #include <string>
 #include <iostream>
 #include <exception>
+#include "Form.hpp"
+
+class AForm;
 
 class Bureaucrat{
 
@@ -17,6 +20,9 @@ public:
 
 	const std::string	getName() const;
 	unsigned int		getGrade() const;
+	void				signForm(AForm &form);
+
+	void	executeForm(AForm &form);
 
 	Bureaucrat &operator=(Bureaucrat &rhs);
 
@@ -38,7 +44,7 @@ private:
 
 	const std::string	_name;
 	unsigned int		_grade;
-	void				setGrade(int grade);
+	void				_setGrade(int grade);
 
 };
 
