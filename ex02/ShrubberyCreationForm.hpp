@@ -13,7 +13,6 @@ class ShrubberyCreationForm : public AForm{
 		~ShrubberyCreationForm();
 
 		virtual void	execute(Bureaucrat const &executor);
-		//ShrubberyCreationForm& operator=(ShrubberyCreationForm &rhs);
 
 	private:
 
@@ -21,6 +20,5 @@ class ShrubberyCreationForm : public AForm{
 
 };
 
-//std::ostream& operator<<(std::ostream &lhs, AForm &rhs);
 
 #endif

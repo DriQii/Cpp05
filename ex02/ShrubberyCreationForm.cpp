@@ -10,14 +10,6 @@ ShrubberyCreationForm::ShrubberyCreationForm(ShrubberyCreationForm &copy) : AFor
 ShrubberyCreationForm::~ShrubberyCreationForm()
 {
 }
-/* ShrubberyCreationForm& ShrubberyCreationForm::operator=(ShrubberyCreationForm &rhs)
-{
-	return(*this);
-} */
-/* std::ostream& operator<<(std::ostream &lhs, AForm &rhs)
-{
-
-} */
 
 void	ShrubberyCreationForm::execute(Bureaucrat const &executor)
 {

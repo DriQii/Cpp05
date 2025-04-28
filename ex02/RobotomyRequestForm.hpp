@@ -12,14 +12,11 @@ class RobotomyRequestForm : public AForm{
 		~RobotomyRequestForm();
 
 		virtual void	execute(Bureaucrat const &executor);
-		//RobotomyRequestForm& operator=(RobotomyRequestForm &rhs);
 
 	private:
 
 		std::string	_target;
 
 };
-
-//std::ostream& operator<<(std::ostream &lhs, AForm &rhs);
 
 #endif

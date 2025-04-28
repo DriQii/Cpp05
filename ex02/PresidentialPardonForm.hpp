@@ -12,14 +12,11 @@ class PresidentialPardonForm : public AForm{
 		~PresidentialPardonForm();
 
 		virtual void	execute(Bureaucrat const &executor);
-		//PresidentialPardonForm& operator=(PresidentialPardonForm &rhs);
 
 	private:
 
 		std::string	_target;
 
 };
-
-//std::ostream& operator<<(std::ostream &lhs, AForm &rhs);
 
 #endif

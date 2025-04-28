@@ -10,14 +10,6 @@ PresidentialPardonForm::PresidentialPardonForm(PresidentialPardonForm &copy) : A
 PresidentialPardonForm::~PresidentialPardonForm()
 {
 }
-/* PresidentialPardonForm& PresidentialPardonForm::operator=(PresidentialPardonForm &rhs)
-{
-	return(*this);
-} */
-/* std::ostream& operator<<(std::ostream &lhs, AForm &rhs)
-{
-
-} */
 
 void	PresidentialPardonForm::execute(Bureaucrat const &executor)
 {
